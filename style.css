@@ -160,12 +160,12 @@ section > h2 {
     display: block;
 }
 @media (max-width: 600px) {
-
     .home-image img {
         width: 230px;
         height: 230px;
+        object-fit: cover;
+        object-position: center top;
     }
-
 }
 
 /* ================= BUTTONS ================= */
